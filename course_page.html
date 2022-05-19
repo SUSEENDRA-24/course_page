@@ -1,0 +1,1542 @@
+
+<!DOCTYPE html>
+<html>
+<head> <!--baseURL--> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. --> <!--[if lt IE 9]> <script src="js/html5shiv.js"></script> <script src="js/respond.min.js"></script> <![endif]-->  
+   <title> Course Page</title>
+
+    <meta property="og:image" content="https://s3.amazonaws.com/contents.newzenler.com/5900/courses/15102/data/thumb/l-5.jpg">
+
+    <meta property="og:title" content="Course Page">
+
+    <meta property="og:description" content="Learn Courses in depth with over 6 hours of video!">
+    <meta name="description" content="Learn Courses in depth with over 6 hours of video!">
+
+<meta property="og:type" content="website">
+
+        
+    <link href="https://d235vmrai5heq2.cloudfront.net/css/course/zenler_font_icon.css" rel="stylesheet">
+
+<!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#ffffff">
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#ffffff">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-status-bar-style" content="#ffffff">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113700824-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-113700824-4');
+</script>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://d235vmrai5heq2.cloudfront.net/fonts/fontawesome-free-5.11.1/css/all.min.css" rel="stylesheet">
+
+<link href="https://d235vmrai5heq2.cloudfront.net/elements/bundles/Zenler/css/Zenler_skeleton.css?v=V3.1.80024" rel="stylesheet">
+<link href="https://d235vmrai5heq2.cloudfront.net/elements/bundles/Zenler/css/Zenler_blocks.css?v=V3.1.80024" rel="stylesheet">
+<link href="https://d235vmrai5heq2.cloudfront.net/css/community/icon.css" rel="stylesheet">
+<link href="https://d235vmrai5heq2.cloudfront.net/elements/css/counteverest/counteverest.css" rel="stylesheet">
+<link href="https://d235vmrai5heq2.cloudfront.net/css/manage-elements.css" rel="stylesheet">
+<link rel="stylesheet" href="https://d235vmrai5heq2.cloudfront.net/css/admin/lib/bootstrap-sweetalert/sweetalert.css">
+<link rel="stylesheet" href="https://d235vmrai5heq2.cloudfront.net/css/admin/separate/vendor/select2.min.css">
+<link media="all" rel="stylesheet" type="text/css" href="https://s3.amazonaws.com/contents.newzenler.com/5900/css/brand.css">
+        <link href="https://s3.us-east-1.amazonaws.com/contents.newzenler.com/5900/library/5f4cbba6b9656_1598864294_favico.png" rel="icon" type="image/png">
+    
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran" />
+
+<script type="text/javascript">
+
+ /* window.onload= function f1()
+  {
+  		var filename = "https://d235vmrai5heq2.cloudfront.net/elements/bundles/Zenler/css/Zenler_skeleton.css";
+  	 	var fileref=document.createElement("link");
+        fileref.setAttribute("rel", "stylesheet");
+        fileref.setAttribute("type", "text/css");
+        fileref.setAttribute("href", filename);
+
+        document.getElementsByTagName("head")[0].appendChild(fileref);
+  }*/
+
+</script>
+
+
+   <script type="text/javascript">// Promises var _eid_promises = {}; // Turn the incoming message from extension // into pending Promise resolving window.addEventListener("message", function(event) { if(event.source !== window) return; if(event.data.src && (event.data.src === "background.js")) { console.log("Page received: "); console.log(event.data); // Get the promise if(event.data.nonce) { var p = _eid_promises[event.data.nonce]; // resolve if(event.data.result === "ok") { if(event.data.signature !== undefined) { p.resolve({hex: event.data.signature}); } else if(event.data.version !== undefined) { p.resolve(event.data.extension + "/" + event.data.version); } else if(event.data.cert !== undefined) { p.resolve({hex: event.data.cert}); } else { console.log("No idea how to handle message"); console.log(event.data); } } else { // reject p.reject(new Error(event.data.result)); } delete _eid_promises[event.data.nonce]; } else { console.log("No nonce in event msg"); } } }, false); function TokenSigning() { function nonce() { var val = ""; var hex = "abcdefghijklmnopqrstuvwxyz0123456789"; for(var i = 0; i < 16; i++) val += hex.charAt(Math.floor(Math.random() * hex.length)); return val; } function messagePromise(msg) { return new Promise(function(resolve, reject) { // amend with necessary metadata msg["nonce"] = nonce(); msg["src"] = "page.js"; // send message window.postMessage(msg, "*"); // and store promise callbacks _eid_promises[msg.nonce] = { resolve: resolve, reject: reject }; }); } this.getCertificate = function(options) { var msg = {type: "CERT", lang: options.lang, filter: options.filter}; console.log("getCertificate()"); return messagePromise(msg); }; this.sign = function(cert, hash, options) { var msg = {type: "SIGN", cert: cert.hex, hash: hash.hex, hashtype: hash.type, lang: options.lang, info: options.info}; console.log("sign()"); return messagePromise(msg); }; this.getVersion = function() { console.log("getVersion()"); return messagePromise({ type: "VERSION" }); }; }</script><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900" type="text/css">
+
+
+   {% include "header.html" %}
+
+</head> <body class="body-style" data-new-gr-c-s-check-loaded="14.990.0" data-gr-ext-installed=""> 
+  
+ 
+
+
+ 
+
+  {% include "top_nav_loggedin.html" %}
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  <div id="page" class="page"> <div class="block parrot zenstyle headers" id="header5" data-zen="zen_header_dynamic" data-dynamic="true" data-yummy="false" style="border-bottom: 1px solid #e4e4e4" data-uniqid="1577350748403"> <div class="navbars header-logo header-style"> <nav class="navbar sbpro-navbar-left-right"> <div class="container"> <!-- Brand and toggle get grouped for better mobile display -->  <style>
+    .zbv-blog-nav {border-bottom: 1px solid #e4e4e4; padding: 25px 0px;}
+    .zbv-blog-nav ul {float:right; position: relative; right: -25px;}
+    </style>
+
+  </div> </div> </nav> </div> </div> <div class="content-style course-description block hero parrot zenstyle full-vheight v-align v-single padding-top-20 padding-bottom-20 background-cover course-description-with-promo-video-outr" id="header19" data-yummy="false" data-uniqid="1577350707859"> <div class="container"> <div class="row" id="zen_cs_desc_with_promo_dynamic"> <div class="col-md-12 text-center text-white"> <div> <div class="zen-removable">   <input type="hidden" name="p-c" value="1" /> <input type="hidden" name="p-hidden" value="0" /> <div> <h1 class="dynamic-heading text-blue custom-heading" data-zd="zen_cs_desc_promo_title_dynamic">Course Page</h1> <h5 class="dynamic-heading text-blue" data-zd="zen_cs_desc_promo_subtitle_dynamic">Learn courses in depth with over 6 hours of video!</h5> </div>  </div> <div class="col-md-8 col-md-offset-2"><div><div class="videoWrapper margin-top-10 margin-bottom-10" style="position: relative;"><iframe src="https://player.vimeo.com/video/496834102?title=0&amp;byline=0&amp;portrait=0" frameborder="0" allowfullscreen=""></iframe><div class="img-vid-resizer-main" style="width: 100%; left: 0px; top: 0px; height: 100%;"><div class="img-vid-resizer top-left"></div><div class="img-vid-resizer top-right"></div><div class="img-vid-resizer bottom-left"></div><div class="img-vid-resizer bottom-right"></div></div></div></div></div><!-- /data-container --> <div style="clear: both;"></div> <div style="margin-top: 20px; padding: 10px; position: relative;" data-uniqid="1577350707793"> <button style="text-transform: none; padding: 15px 60px; box-shadow: 0px 6px 10px 4px rgba(160, 160, 160, 0.2);" class="dynamic-button btn btn-default btn-lg btn-enroll" data-uniqid="1577350707792">Enroll in Course</button> </div> </div> </div> </div> </div> </div> <div class="content-style block sbpro-bg-styler padding-top-50 padding-bottom-50 border-light-thin pricing parrot" data-yummy="false" data-uniqid="1577350711398" style="padding-bottom: 16px;"> <div class="container"> <div class="row" data-uniqid="1577350711370"> <div class="col-md-2"> <div class="testimonia_author_info" style="position: relative;"> 
+    
+    <div class="author_info text-center">  <div data-content="true">  </div> </div> </div> </div> <div class="col-md-10" data-nointent="true"> <div class="sbpro-bg-styler padding-top-20 radius-small" style="word-break: break-word;" data-uniqid="1577350711436"> <h4 class="margin-bottom-30" style="line-height:30px; font-size:22px; margin-top:20px;position: relative;" data-uniqid="1577350711344"><div class="fr-wrapper show-placeholder" dir="auto"><div class="fr-element fr-view" dir="auto" spellcheck="true"></div></div></h4> </div> </div> </div> </div> </div> <div class="block parrot feature bg-layer padding-top-bottom-60 content yummy" id="feature31" data-uniqid="1597330436371" style="padding-top: 16px;"> <div class="overly"></div> <div class="container"> <div class="row margin-bottom-20" style="padding:20px;" data-uniqid="1597330436363"> <div class="col-md-12" style="padding:20px;"> <div> <div data-content="true"> <h2 class="text-center text-uppercase animated fadeInDown" data-uniqid="1597330436355">ZERO TO HERO WITH MSK IN 6 HOURS</h2> </div> <div data-content="true"> <p class="text-noble-grey font-light text-center margin-bottom-20 animated fadeInDown" data-uniqid="1597330436357" style="font-size: 19px;">Time to get up and running efficiently. In no time, I will ensure you can leverage the featurepreservice fully and efficiently</p> </div> </div> </div> </div> <div class="row margin-bottom-20" data-uniqid="1597330436364"> <div class="col-md-4"> <div class="sbpro-bg-styler feature-box30" data-uniqid="1597330436386"> <div class="feature-icon"> <div> <span class="fas fa-lightbulb" data-uniqid="1597330436334"></span> </div> </div> <div data-content="true"> <h5 class="text-nero-grey text-uppercase" data-uniqid="1597330436356">Learn Course efficiently today</h5> </div> <div data-content="true"> <p class="text-noble-grey font-light" data-uniqid="1597330436358">Amazon MSK is a huge time saver: deploying Apache Kafka on AWS is not an easy task. Yet, even though Apache Kafka is managed by Amazon MSK, you will need to learn how to properly operate it, as well as how to deploy applications against Amazon MSK.</p> </div> </div> </div> <div class="col-md-4"> <div class="sbpro-bg-styler feature-box30" data-uniqid="1597330436387"> <div class="feature-icon"> <div> <span class="fab fa-amazon" data-uniqid="1597330436335"></span> </div> </div> <div data-content="true"> <h5 class="text-nero-grey text-uppercase" data-uniqid="1597330436356">DESIGNED IN PARTNERSHIP WITH AWS</h5> </div> <div data-content="true"> <p class="text-noble-grey font-light" data-uniqid="1597330436359">This course was designed by Stephane Maarek in partnership with AWS. The intention was to provide AWS customers an easy and straightforward way to understand the Amazon MSK service. It covers the AWS best practices as well as satellite services that will turn your usage of Amazon MSK into a smooth ride!</p> </div> </div> </div> <div class="col-md-4"> <div class="sbpro-bg-styler feature-box30" data-uniqid="1597330436388"> <div class="feature-icon"> <div> <span class="fas fa-money-bill-wave" data-uniqid="1597330436332"></span> </div> </div> <div data-content="true"> <h5 class="text-nero-grey text-uppercase" data-uniqid="1597330436356">Money back guarantee<br><br></h5> </div> <div data-content="true"> <p class="text-noble-grey font-light" data-uniqid="1597330436359">The course offers excellent value for the one time enrolment fee. You will gain full access to the materials, and will save time and money with your Amazon MSK deployments. I'm so confident in the value, I offer a 30-day unconditional money-back guarantee.</p> </div> </div> </div> </div> </div> </div> <div class="content-style course-curriculum course-curriculum-collasped block parrot zenstyle content background-cover center-center padding-top-50 padding-bottom-50" style="border-bottom:1px solid #e4e4e4;" data-yummy="false" data-uniqid="1597323035794"> <div class="container"> <div class="text-center padding-bottom-25" data-content="true"> <h2 class="dynamic-heading" data-uniqid="1597323035783"><span style="font-family: Lato;">Course Curriculum</span></h2> </div> <div class="row" id="zen_cs_cur_dynamic" data-dynamic="true" style="padding-top:25px;" data-uniqid="1597323035669">  <div class="col-md-12">
+    <!-- Course Curriculum Start !-->
+    <article> 
+      <ul class="timeline" data-dynamic="true">
+                                      
+
+                                
+          
+                        <li class="timeline-milestone is-current timeline-start">
+                    
+            <div class="timeline-action is-expandable">
+              <h2 class="dynamic-heading title"></h2>
+              <span class="dynamic-text details">
+                                  5 
+                                    Lessons                                  
+                  
+                              </span>
+              <div class="content">
+                                  <ul class="dynamic-text content-list"> 
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341b65b4a84" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> MSK Course Pre-Requisites &amp; Plan</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341b70ae8c1" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> MSK Course Cost - IMPORTANT</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341b76676a4" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> About Your Instructor</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341b6b9069a" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Amazon MSK Overview</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f47913e90152" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-download" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Course Code &amp; Slides Download | Pre-requisites</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                      </ul>
+                              </div>
+            </div>
+          </li>
+                                      
+
+          
+          
+                        <li class="timeline-milestone is-current ">
+                    
+            <div class="timeline-action is-expandable">
+              <h2 class="dynamic-heading title">Getting Started with MSK  </h2>
+              <span class="dynamic-text details">
+                                  13 
+                                    Lessons                                  
+                  
+                              </span>
+              <div class="content">
+                                  <ul class="dynamic-text content-list"> 
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341d62a9167" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> AWS Account Setup</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341cf8b0eb7" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> VPC Creation for the Course - Theory</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341d0140c62" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> VPC Creation for the Course - Hands On</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341d3734a72" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> MSK Cluster Creation and Security Groups</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341d2fbf1ce" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> MSK Cluster Setup - Hands On</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341d42b00d2" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Kafka Client Toolbox Setup</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341d260c2e3" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Running Commands Against Kafka</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341d1c6fbed" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Running a Python Kafka Producer and a Kafka Consumer from an EC2 Instance</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f354f93be2e9" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Public Application Load Balancer Setup</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341d4a61ff1" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> ECS Cluster Setup</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341d132ddb1" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Setting up AKHQ - Administration Tool for Apache Kafka</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341d0ad486d" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Setting up ZooNavigator - Administration Tool for Zookeeper</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341cb99ac06" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Cost Control - Getting Started with MSK</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                      </ul>
+                              </div>
+            </div>
+          </li>
+                                      
+
+          
+          
+                        <li class="timeline-milestone is-current ">
+                    
+            <div class="timeline-action is-expandable">
+              <h2 class="dynamic-heading title">Connecting to Amazon MSK from your Laptop - AWS Client VPN  </h2>
+              <span class="dynamic-text details">
+                                  6 
+                                    Lessons                                  
+                  
+                              </span>
+              <div class="content">
+                                  <ul class="dynamic-text content-list"> 
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341d548b594" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Connecting to Amazon MSK from your computer - Advertised Listeners Explained</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341d5be73ba" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> AWS Client VPN - Theory</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341ce1ccc77" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> AWS Client VPN Setup - Part 1</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341cd7be670" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> AWS Client VPN Setup - Part 2 - Client VPN Endpoint</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341cce87d67" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> AWS Client VPN Setup - Part 3 - Computer Setup</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341cc3a95d6" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Connecting to Amazon MSK with Conduktor</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                      </ul>
+                              </div>
+            </div>
+          </li>
+                                      
+
+          
+          
+                        <li class="timeline-milestone is-current ">
+                    
+            <div class="timeline-action is-expandable">
+              <h2 class="dynamic-heading title">Deploying Applications Against MSK  </h2>
+              <span class="dynamic-text details">
+                                  8 
+                                    Lessons                                  
+                  
+                              </span>
+              <div class="content">
+                                  <ul class="dynamic-text content-list"> 
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341ca68b8fe" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Private Application Load Balancer - Setup</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341c960babe" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Confluent Schema Registry with ALB - Overview</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341c8f5d265" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Confluent Schema Registry with ALB - Hands On</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341c84a1071" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Confluent Schema Registry with ECS Discovery - Hands On</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341cf1e3a89" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Setting up AKHQ with Confluent Schema Registry</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341cb28814e" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Running a Java Avro Producer &amp; Consumer against Amazon MSK</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341ca06c4d8" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Confluent REST Proxy Setup on Amazon MSK</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341ce89a20d" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Cost Control - Applications Section</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                      </ul>
+                              </div>
+            </div>
+          </li>
+                                      
+
+          
+          
+                        <li class="timeline-milestone is-current ">
+                    
+            <div class="timeline-action is-expandable">
+              <h2 class="dynamic-heading title">MSK Cluster Configuration &amp; Operations  </h2>
+              <span class="dynamic-text details">
+                                  7 
+                                    Lessons                                  
+                  
+                              </span>
+              <div class="content">
+                                  <ul class="dynamic-text content-list"> 
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341c5818383" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> MSK Cluster Sizing</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341c4861906" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> MSK Horizontal Scaling - Adding Kafka Brokers</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341c40b58dd" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Reassigning Partitions after a Horizontal Scaling</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f3545e511a37" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> MSK Broker Storage</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341c6440bf1" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> MSK Cluster Upgrade</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341c7981d94" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Important Kafka Client Settings for MSK</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341c4f19dbb" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Amazon MSK Custom Configurations</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                      </ul>
+                              </div>
+            </div>
+          </li>
+                                      
+
+          
+          
+                        <li class="timeline-milestone is-current ">
+                    
+            <div class="timeline-action is-expandable">
+              <h2 class="dynamic-heading title">MSK Cluster Security  </h2>
+              <span class="dynamic-text details">
+                                  10 
+                                    Lessons                                  
+                  
+                              </span>
+              <div class="content">
+                                  <ul class="dynamic-text content-list"> 
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341c2fec683" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> MSK Cluster Security Overview</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341c386847c" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> In Flight TLS Encryption</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341c218e680" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> TLS Authentication - Overview</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341c1a9c733" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> TLS Authentication - ACM Setup</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341c0ba2495" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> TLS Authentication - Client Setup</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341c134dae0" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> TLS Authentication - ACL Setup</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341c03094ab" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Zookeeper Security in Amazon MSK</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5fa1481724127" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-file" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Untitled lesson</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341c27b0de1" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> MSK Security - Summary</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341bfa35507" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> TLS Authentication - Cleanup</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                      </ul>
+                              </div>
+            </div>
+          </li>
+                                      
+
+          
+          
+                        <li class="timeline-milestone is-current ">
+                    
+            <div class="timeline-action is-expandable">
+              <h2 class="dynamic-heading title">MSK Monitoring  </h2>
+              <span class="dynamic-text details">
+                                  10 
+                                    Lessons                                  
+                  
+                              </span>
+              <div class="content">
+                                  <ul class="dynamic-text content-list"> 
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341ba6304bc" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> MSK Monitoring Overview</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341bf438812" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> MSK Broker Log Delivery</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341be7c8706" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> CloudWatch Metrics for MSK</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341bd123eae" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> MSK Open Monitoring - Overview</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341bae40de2" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Prometheus Setup on EC2</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341bb701043" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Prometheus Setup on ECS - Ground Work</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341bcb4ff6e" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Prometheus Docker Image Setup on ECR</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341bc367bc2" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Prometheus Setup on ECS - ECS Service Setup</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341bd97ac3a" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Grafana Setup on ECS</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341bedb6dae" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> MSK Monitoring - Cleanup</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                      </ul>
+                              </div>
+            </div>
+          </li>
+                                      
+
+          
+                                
+                        <li class="timeline-milestone is-current timeline-end">
+                    
+            <div class="timeline-action is-expandable">
+              <h2 class="dynamic-heading title">Stream Processing on MSK  </h2>
+              <span class="dynamic-text details">
+                                  5 
+                                    Lessons                                  
+                  
+                              </span>
+              <div class="content">
+                                  <ul class="dynamic-text content-list"> 
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341b9e069b6" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Stream Processing with Kafka Streams</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341b7f2bd72" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Kafka Streams on ECS</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341b97d2f52" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Kafka Streams in Production</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341b86d05ca" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> Using Kinesis Data Analytics to run Flink Jobs against MSK</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                           
+                                              <li>
+                        <div class="dynamic-text" style="position: relative;text-indent: 40px;">
+                          <div class="canvas-wrap">
+                            <canvas   id="5f341b923b7c1" width="60" height="60"></canvas>
+                              
+                          </div>
+                         
+                          <i class="icon-video-camera" aria-hidden="true" style="margin-right: 20px;position: absolute;left: -31px;top: 4px;font-size: 12px;"></i>
+                                                    <span class="text-trim" style="text-indent: 40px;display: block;"> KDA - Hands On</span>
+
+                        </div>
+
+                          
+
+                        <span class="btn-timeline btn-timeline-button"><a href="javascript:;" disabled=disabled class="btn btn-primary btn-sm dynamic-button">Start</a></span>
+                      </li>
+
+                                      </ul>
+                              </div>
+            </div>
+          </li>
+              </ul> 
+    </article>
+  </div>
+
+
+<style>
+
+:root {
+  background: #fff;
+}
+
+
+.canvas-wrap {
+  position: absolute;
+   width: 60px;
+   height: 60px;
+   left: -55px;
+   top: -20px;
+}
+
+.content-list li{
+  position: relative;
+}
+
+.timeline-milestone.is-complete:before {
+    background-color: #383f4e}
+</style>
+
+<script type="text/javascript">
+  course = {"id":15102,"name":"Amazon MSK Master Class","description":null,"slug":"amazon-msk-master-class","url":"https:\/\/learn-msk.newzenler.com\/courses\/amazon-msk-master-class","course_type":1,"maximum_limit":-1,"summary":"","audience":null,"thumbnail":"https:\/\/s3.amazonaws.com\/contents.newzenler.com\/5900\/courses\/15102\/data\/thumb\/l-5.jpg","promo_video":"","owner":"5900.5f341a9a0b1e8","course_layout_id":1,"school_id":5900,"funnel_id":18898,"currency_id":22,"public":1,"featured":1,"hidden":0,"private":0,"progress":1,"review":0,"certificate":1,"course_level_auto_drip":0,"enable_dripdelay":0,"drip_type":1,"enable_disquz":0,"enable_price_reveal_time":0,"enable_price_reveal_text":0,"price_reveal_time":"00:00:00","price_reveal_text":null,"conversion_pixel":null,"published_date":"2020-08-31 09:04:08","tracked":1,"created_at":"2020-08-12 16:38:51","updated_at":"2020-08-31 10:06:15","subtitle":"Learn Amazon MSK in depth with over 6 hours of video!","display_order":1,"canva_design_id":null,"curriculum":{"_id":"5f341b1bdecc1f5488545d83","course_id":15102,"school_id":5900,"updated_at":{"date":"2021-01-04 10:47:45.000000","timezone_type":3,"timezone":"UTC"},"created_at":{"date":"2020-08-12 16:38:51.000000","timezone_type":3,"timezone":"UTC"},"themebgcolor":"#383f4e","sections":[{"id":"sec_5f341b1b7b213","title":"Course Introduction","lessons":[{"id":"5f341b65b4a84","title":"MSK Course Pre-Requisites & Plan","contents":[{"id":"5ff2f20adaa8e","type":"video","title":"msk-course-intro.mp4","host":"vimeo","videoid":"496834102","downloadable":false,"libraryId":352206}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341b70ae8c1","title":"MSK Course Cost - IMPORTANT","contents":[{"id":"5f4791acdf092","type":"text","textcontent":"<h1><strong><u>Please do not skip this lecture<\/u><\/strong><\/h1>\n<ol><li>Watch the video<\/li><li>Read the recommendations below the video<\/li><li>Click on \"Next Lesson\" to complete this lecture<\/li><\/ol>"},{"id":"5f341b7211cf8","type":"video","title":"msk-course-cost1597250416.mp4","host":"vimeo","videoid":"447199150","downloadable":false,"libraryId":210810},{"id":"5f4791ba6cd23","type":"text","textcontent":"<p>Below you will find my AWS bill for the month of recording the course. <strong><u>It's around $300 USD. <\/u><\/strong><\/p>"},{"id":"5f4ccdd0d77a0","type":"downloads","title":"Course Bill - flat.pdf","downloadlink":"5900\/library\/5f4791e3dae31_1598525923_course-bill-flat.pdf","extension":"pdf","libraryId":"224414"},{"id":"5f4791f7b304d","type":"text","textcontent":"<h2><strong><u>Course Cost recommendations<\/u><\/strong><\/h2>\n<p>Please keep this handy during the course.<\/p>\n<p><\/p>\n<h3><strong>Amazon MSK:<\/strong><\/h3>\n<p>These costs are the ones you can't really avoid. You will be billed for as long as your MSK cluster is running. I suggest doing the course fast (in a week) to minimise these costs and terminate your clusters afterwards. <\/p>\n<p>Also, while I show you how to resize an EBS volume using MSK, you don't have to do it with me, which will allow you to keep your EBS costs down. <\/p>\n<p><\/p>\n<h3><strong>VPC:<\/strong><\/h3>\n<p>In this course, we will (optionally) be using AWS Client VPN to connect to our MSK clusters. The pricing is as such:<\/p>\n<p><\/p>\n<figure><img data-imageloader=\"\" data-imageloader-src=\"https:\/\/www.filepicker.io\/api\/file\/upOuZBo8RZC10wvB8RDk\" src=\"https:\/\/cdn.fs.teachablecdn.com\/ADNupMnWyR7kCWRvm76Laz\/resize=width:1500\/https:\/\/www.filepicker.io\/api\/file\/upOuZBo8RZC10wvB8RDk\" data-imageloader-current-size=\"1500\" data-image=\"voyaio4nb0p3\"><\/figure>\n<ul><li>Recommendation 1: shut down your Client VPN connection when not using it<\/li><li>Recommendation 2: dis-associate the Client VPN endpoint at the end of your usage of AWS. <\/li><\/ul>\n<p>The Client VPN endpoint associate can end up being very costly... $75 per month for not using it. To please, dis-associate your connection when you're not using it. It will take time to associate and dis-associate it for some reason, but you will be saving quite big. <\/p>\n<p><\/p>\n<h3><strong>AWS Certified Manager (ACM):<\/strong><\/h3>\n<p>In this course we will be using a Private CA to demonstrate MSK security. <strong>You get a 30 day trial, afterwards you will pay $400 per month<\/strong>. I recommend you delete the Private CA as soon as you're done with the security part. <\/p>\n<p>Finally, each certificate you create will cost you $1.<\/p>\n<p><\/p>\n<h3><strong>CloudWatch: <\/strong><\/h3>\n<p>MSK basic monitoring is free for CloudWatch metrics. But as soon as you enable detailed monitoring, you will be sending a lot a CloudWatch metrics in. The costs can add up very quickly. Make sure to disable this after you're done experimenting with the feature. <\/p>\n<p><\/p>\n<h3><strong>EC2:<\/strong><\/h3>\n<ul><li>Recommendation 1: As soon as you're done with the EC2 instance, remember to stop it. Start it again when you need it<\/li><li>Recommendation 2: I demonstrate how to use ALB in this course, using a public and a private ALB. You could just use a Public ALB if you wanted. Alternatively, if you have a private connection to AWS (using the VPN solution maybe), you could be using the ECS service discovery technique I will show you in this course, and not use ALB altogether. <\/li><\/ul>\n<p><\/p>\n<h3><strong>ECS \/ Fargate<\/strong>:<\/h3>\n<p>All the services will start in this course will be using ECS and Fargate. You will see I've been quite good in the good at showing how to reduce the costs for ECS. <strong>As soon as you're done using a Fargate service, set the number of tasks to 0.<\/strong> This will effectively shut down the service, but you can easily turn it back on by setting the tasks back to 1. <\/p>\n<p><\/p>\n<p><\/p>\n<p>That's it!<\/p>\n<p>I hope this will allow you to keep your costs down. Happy learning!<\/p>\n<p><\/p>"},{"id":"5f4791e403beb","type":"pdf","title":"Course Bill - flat.pdf","downloadlink":"5900\/library\/5f4791e3dae31_1598525923_course-bill-flat.pdf","extension":"pdf","libraryId":224414}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341b76676a4","title":"About Your Instructor","contents":[{"id":"5f341b77a67a3","type":"video","title":"about-your-instructor-msk1597250422.mp4","host":"vimeo","videoid":"447199185","downloadable":false,"libraryId":210811}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341b6b9069a","title":"Amazon MSK Overview","contents":[{"id":"5f341b6d27fd3","type":"video","title":"msk-overview1597250411.mp4","host":"vimeo","videoid":"447199117","downloadable":false,"libraryId":210809}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f47913e90152","title":"Course Code & Slides Download | Pre-requisites","contents":[{"id":"5ff2f24bd6d72","type":"downloads","title":"Amazon MSK Slides v1","downloadlink":"5900\/library\/5ff2f24b9d68d_1609757259_amazon-msk-slides-v1-1.pdf","extension":"pdf","libraryId":352213},{"id":"5f4cceaca54f2","type":"downloads","title":"Amazon MSK Course Code","downloadlink":"5900\/library\/5f4cceac87f90_1598869164_code.zip","extension":"zip","libraryId":227579},{"id":"5f47916d9e707","type":"text","textcontent":"<h2>Course Pre-Requisites<br><\/h2>\n<p><u>For AWS:<\/u><\/p>\n<ul><li>Understand VPC basics, subnets, security groups, networking<\/li><li>Understand EC2 basics, including SSH keys, security groups, Application Load Balancers<\/li><li>Understand ECS basics, including ECS Services, Task Definitions, Fargate<\/li><\/ul>\n<p><u>For Apache Kafka<\/u><\/p>\n<ul><li>Understand Kafka Topics, Partitions & Replication Factor<\/li><li>Understand Kafka Producers & Consumers<\/li><li>Understand Kafka Streams & Kafka Connect at a high level<\/li><\/ul>"},{"id":"5f4ccecdd6f44","type":"text","textcontent":"<h2>Crash Courses<\/h2>\n<ul><li>AWS Course:&nbsp;<a href=\"https:\/\/links.datacumulus.com\/aws-certified-dev-coupon\" rel=\"noopener noreferrer\" target=\"_blank\">AWS Certified Developer Associate<\/a><\/li><li>ECS Course:&nbsp;<a href=\"https:\/\/links.datacumulus.com\/aws-ecs-coupon\" rel=\"noopener noreferrer\" target=\"_blank\">ECS Master Class<\/a><\/li><li>Kafka Course:&nbsp;<a href=\"https:\/\/links.datacumulus.com\/apache-kafka-coupon\" rel=\"noopener noreferrer\" target=\"_blank\">Apache Kafka for Beginners v2<\/a><\/li><\/ul>\n<p>------<\/p>\n<p>All my other courses:&nbsp;<a href=\"https:\/\/courses.datacumulus.com\/\" rel=\"noopener noreferrer\" target=\"_blank\">https:\/\/courses.datacumulus.com\/<\/a><\/p>"},{"id":"5f4ccee608818","type":"text","textcontent":"<h2>Amazon MSK Workshop Website<br><\/h2>\n<p><a href=\"https:\/\/amazonmsk-labs.workshop.aws\/\" rel=\"noopener noreferrer\" target=\"_blank\">https:\/\/amazonmsk-labs.workshop.aws\/<\/a><\/p>"}],"icon":"icon-download","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"}],"completedLessonCount":0},{"id":"sec_5f3534fdc4d91","title":"Getting Started with MSK","lessons":[{"id":"5f341d62a9167","title":"AWS Account Setup","contents":[{"id":"5f341d6529f62","type":"video","title":"aws-account-setup1597250914.mp4","host":"vimeo","videoid":"447201909","downloadable":false,"libraryId":210871}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341cf8b0eb7","title":"VPC Creation for the Course - Theory","contents":[{"id":"5f341cfb34c89","type":"video","title":"vpc-creation-theory1597250808.mp4","host":"vimeo","videoid":"447201305","downloadable":false,"libraryId":210859}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341d0140c62","title":"VPC Creation for the Course - Hands On","contents":[{"id":"5f341d0388558","type":"video","title":"vpc-creation-hands-on1597250817.mp4","host":"vimeo","videoid":"447201365","downloadable":false,"libraryId":210860}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341d3734a72","title":"MSK Cluster Creation and Security Groups","contents":[{"id":"5f341d39ab7c2","type":"video","title":"msk-cluster-creation-and-security-groups1597250871.mp4","host":"vimeo","videoid":"447201658","downloadable":false,"libraryId":210866}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341d2fbf1ce","title":"MSK Cluster Setup - Hands On","contents":[{"id":"5f341d3259cec","type":"video","title":"msk-cluster-setup-handson1597250863.mp4","host":"vimeo","videoid":"447201615","downloadable":false,"libraryId":210865}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341d42b00d2","title":"Kafka Client Toolbox Setup","contents":[{"id":"5f341d4539744","type":"video","title":"kafka-client-toolbox-setup1597250882.mp4","host":"vimeo","videoid":"447201731","downloadable":false,"libraryId":210867}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341d260c2e3","title":"Running Commands Against Kafka","contents":[{"id":"5f341d286ec6f","type":"video","title":"running-commands-against-kafka1597250854.mp4","host":"vimeo","videoid":"447201567","downloadable":false,"libraryId":210864}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341d1c6fbed","title":"Running a Python Kafka Producer and a Kafka Consumer from an EC2 Instance","contents":[{"id":"5f341d1f206d8","type":"video","title":"running-python-scripts-against-msk1597250844.mp4","host":"vimeo","videoid":"447201529","downloadable":false,"libraryId":210863}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f354f93be2e9","title":"Public Application Load Balancer Setup","contents":[{"id":"5f354fd90fe24","type":"video","title":"alb-setup.mp4","host":"vimeo","videoid":"447498435","downloadable":false,"libraryId":211654}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341d4a61ff1","title":"ECS Cluster Setup","contents":[{"id":"5f341d4daf507","type":"video","title":"ecs-setup1597250890.mp4","host":"vimeo","videoid":"447201777","downloadable":false,"libraryId":210868}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341d132ddb1","title":"Setting up AKHQ - Administration Tool for Apache Kafka","contents":[{"id":"5f341d15afcf7","type":"video","title":"setting-up-akhq1597250835.mp4","host":"vimeo","videoid":"447201477","downloadable":false,"libraryId":210862}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341d0ad486d","title":"Setting up ZooNavigator - Administration Tool for Zookeeper","contents":[{"id":"5f341d0d1af22","type":"video","title":"setting-up-zoonavigator1597250826.mp4","host":"vimeo","videoid":"447201426","downloadable":false,"libraryId":210861}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341cb99ac06","title":"Cost Control - Getting Started with MSK","contents":[{"id":"5f341cbbc85ff","type":"video","title":"end-of-section-1-cost-control1597250745.mp4","host":"vimeo","videoid":"447200965","downloadable":false,"libraryId":210851}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"}],"completedLessonCount":0},{"id":"sec_5f354a17697f8","title":"Connecting to Amazon MSK from your Laptop - AWS Client VPN","lessons":[{"id":"5f341d548b594","title":"Connecting to Amazon MSK from your computer - Advertised Listeners Explained","contents":[{"id":"5f341d570c405","type":"video","title":"connecting-to-msk-from-your-laptop1597250900.mp4","host":"vimeo","videoid":"447201833","downloadable":false,"libraryId":210869}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341d5be73ba","title":"AWS Client VPN - Theory","contents":[{"id":"5f341d5e24b88","type":"video","title":"aws-client-vpn-setup1597250908.mp4","host":"vimeo","videoid":"447201871","downloadable":false,"libraryId":210870}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341ce1ccc77","title":"AWS Client VPN Setup - Part 1","contents":[{"id":"5f341ce49f7a2","type":"video","title":"aws-client-vpn-setup-hands-on1597250785.mp4","host":"vimeo","videoid":"447201173","downloadable":false,"libraryId":210856}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341cd7be670","title":"AWS Client VPN Setup - Part 2 - Client VPN Endpoint","contents":[{"id":"5f341cda227bf","type":"video","title":"aws-client-vpn-setup-part-2-client-vpn-endpoint1597250775.mp4","host":"vimeo","videoid":"447201131","downloadable":false,"libraryId":210855},{"id":"5f59ea65a0d09","type":"text","textcontent":"<p><strong><span style=\"font-size: 30px;\">About the DNS setting<\/span><\/strong><\/p>\n<p><strong><\/strong>It is important you set the DNS setting to 10.0.0.2 (VPC CIDR Base +2), otherwise, you will not be able to resolve Route 53's private DNS entries.&nbsp;<\/p>\n<p>You can read more about it here:&nbsp;<a href=\"https:\/\/aws.amazon.com\/premiumsupport\/knowledge-center\/route53-resolve-with-inbound-endpoint\/\">https:\/\/aws.amazon.com\/premiumsupport\/knowledge-center\/route53-resolve-with-inbound-endpoint\/<\/a><\/p>\n<p><em>\"Amazon Elastic Compute Cloud (Amazon EC2) instances in a VPC can send DNS queries to the Resolver <strong>using the reserved IP address at the base of the VPC CIDR IPv4 network range plus two.<\/strong> \"<\/em><\/p>"}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341cce87d67","title":"AWS Client VPN Setup - Part 3 - Computer Setup","contents":[{"id":"5f341cd0a9fb1","type":"video","title":"aws-client-vpn-setup-part-3-client-vpn-on-computer1597250766.mp4","host":"vimeo","videoid":"447201080","downloadable":false,"libraryId":210854}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341cc3a95d6","title":"Connecting to Amazon MSK with Conduktor","contents":[{"id":"5f341cc5f2cd0","type":"video","title":"conduktor-on-msk-demo1597250755.mp4","host":"vimeo","videoid":"447201018","downloadable":false,"libraryId":210852}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"}],"completedLessonCount":0},{"id":"sec_5f354a279e36c","title":"Deploying Applications Against MSK","lessons":[{"id":"5f341ca68b8fe","title":"Private Application Load Balancer - Setup","contents":[{"id":"5f341ca864818","type":"video","title":"private-alb-setup1597250726.mp4","host":"vimeo","videoid":"447200855","downloadable":false,"libraryId":210849}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341c960babe","title":"Confluent Schema Registry with ALB - Overview","contents":[{"id":"5f341c9870b06","type":"video","title":"schema-registry-with-alb1597250710.mp4","host":"vimeo","videoid":"447200761","downloadable":false,"libraryId":210847},{"id":"5f59e8c91cfdc","type":"text","textcontent":"<p><span style=\"font-size: 30px;\"><strong>Troubleshooting<\/strong><\/span><\/p>\n<p><span style=\"font-size: 24px;\"><strong>Unknown local hostname<\/strong><\/span><\/p><p>A student reported (for reasons yet unknown) that the container for Schema Registry never started for him.&nbsp;<\/p>\n<p><code>\u201cCaused by: org.apache.kafka.common.config.ConfigException: Invalid value &lt;strong&gt;&lt;a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http:\/\/java.net.unknownhostexceptio\/\"&gt;java.net.UnknownHostExceptio&lt;\/a&gt;&lt;\/strong&gt;n: 730e6396c0c2: 730e6396c0c2: Name or service not known for configuration Unknown local hostname\u201d<\/code><\/p>\n<p>In which case, he recommended adding <code>echo 127.0.0.1 $HOSTNAME &gt;&gt; \/etc\/hosts<\/code> to the docker entrypoint<\/p>\n\n"}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341c8f5d265","title":"Confluent Schema Registry with ALB - Hands On","contents":[{"id":"5f341c915548a","type":"video","title":"schema-registry-with-alb-hands-on1597250703.mp4","host":"vimeo","videoid":"447200733","downloadable":false,"libraryId":210846}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341c84a1071","title":"Confluent Schema Registry with ECS Discovery - Hands On","contents":[{"id":"5f341c86b8332","type":"video","title":"schema-registry-with-ecs-discovery1597250692.mp4","host":"vimeo","videoid":"447200668","downloadable":false,"libraryId":210845}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341cf1e3a89","title":"Setting up AKHQ with Confluent Schema Registry","contents":[{"id":"5f341cf437dc9","type":"video","title":"akhq-with-schema-registry1597250801.mp4","host":"vimeo","videoid":"447201265","downloadable":false,"libraryId":210858}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341cb28814e","title":"Running a Java Avro Producer & Consumer against Amazon MSK","contents":[{"id":"5f341cb4d5603","type":"video","title":"java-avro-clients1597250738.mp4","host":"vimeo","videoid":"447200914","downloadable":false,"libraryId":210850}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341ca06c4d8","title":"Confluent REST Proxy Setup on Amazon MSK","contents":[{"id":"5f341ca250fa4","type":"video","title":"rest-proxy-setup1597250720.mp4","host":"vimeo","videoid":"447200818","downloadable":false,"libraryId":210848}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341ce89a20d","title":"Cost Control - Applications Section","contents":[{"id":"5f341ceb1e53f","type":"video","title":"applications-section-cost-reduction1597250792.mp4","host":"vimeo","videoid":"447201212","downloadable":false,"libraryId":210857}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"}],"completedLessonCount":0},{"id":"sec_5f354a3317a54","title":"MSK Cluster Configuration & Operations","lessons":[{"id":"5f341c5818383","title":"MSK Cluster Sizing","contents":[{"id":"5f341c5a2bf05","type":"video","title":"msk-cluster-sizing1597250648.mp4","host":"vimeo","videoid":"447200454","downloadable":false,"libraryId":210841}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341c4861906","title":"MSK Horizontal Scaling - Adding Kafka Brokers","contents":[{"id":"5f341c4a3c290","type":"video","title":"msk-horizontal-scaling1597250632.mp4","host":"vimeo","videoid":"447200381","downloadable":false,"libraryId":210839}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341c40b58dd","title":"Reassigning Partitions after a Horizontal Scaling","contents":[{"id":"5f341c427e064","type":"video","title":"msk-reassign-partitions1597250624.mp4","host":"vimeo","videoid":"447200327","downloadable":false,"libraryId":210838}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f3545e511a37","title":"MSK Broker Storage","contents":[{"id":"5f3545f37ef27","type":"video","title":"msk-broker-storage1597250669.mp4","host":"vimeo","videoid":"447200561","downloadable":false}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341c6440bf1","title":"MSK Cluster Upgrade","contents":[{"id":"5f341c66a32f3","type":"video","title":"msk-broker-upgrade1597250660.mp4","host":"vimeo","videoid":"447200512","downloadable":false,"libraryId":210842}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341c7981d94","title":"Important Kafka Client Settings for MSK","contents":[{"id":"5f341c7b9f6f0","type":"video","title":"msk-important-client-settings1597250681.mp4","host":"vimeo","videoid":"447200614","downloadable":false,"libraryId":210844}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341c4f19dbb","title":"Amazon MSK Custom Configurations","contents":[{"id":"5f341c511b8b4","type":"video","title":"msk-custom-configurations1597250639.mp4","host":"vimeo","videoid":"447200410","downloadable":false,"libraryId":210840}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"}],"completedLessonCount":0},{"id":"sec_5f354a4078a36","title":"MSK Cluster Security","lessons":[{"id":"5f341c2fec683","title":"MSK Cluster Security Overview","contents":[{"id":"5f341c3207c64","type":"video","title":"msk-security-overview1597250608.mp4","host":"vimeo","videoid":"447200248","downloadable":false,"libraryId":210836}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341c386847c","title":"In Flight TLS Encryption","contents":[{"id":"5f341c3a59da0","type":"video","title":"msk-security-in-flight-encryption1597250616.mp4","host":"vimeo","videoid":"447200286","downloadable":false,"libraryId":210837}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341c218e680","title":"TLS Authentication - Overview","contents":[{"id":"5f341c23aa4f2","type":"video","title":"msk-security-tls-auth-overview1597250593.mp4","host":"vimeo","videoid":"447200176","downloadable":false,"libraryId":210834}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341c1a9c733","title":"TLS Authentication - ACM Setup","contents":[{"id":"5f341c1c6fcc1","type":"video","title":"msk-security-tls-auth-setup1597250586.mp4","host":"vimeo","videoid":"447200133","downloadable":false,"libraryId":210833}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341c0ba2495","title":"TLS Authentication - Client Setup","contents":[{"id":"5f341c0d0962b","type":"video","title":"msk-security-tls-client-auth-setup1597250571.mp4","host":"vimeo","videoid":"447200044","downloadable":false,"libraryId":210830}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341c134dae0","title":"TLS Authentication - ACL Setup","contents":[{"id":"5f341c14e2d5a","type":"video","title":"msk-security-tls-client-acl1597250579.mp4","host":"vimeo","videoid":"447200091","downloadable":false,"libraryId":210831}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341c03094ab","title":"Zookeeper Security in Amazon MSK","contents":[{"id":"5f341c04e0aa6","type":"video","title":"msk-security-zookeeper-security1597250563.mp4","host":"vimeo","videoid":"447199989","downloadable":false,"libraryId":210829}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5fa1481724127","title":"Untitled lesson","contents":[{"id":"5fa148ec272c2","type":"text","textcontent":"<p><span style=\"font-size: 18px;\"><strong>Zookeeper Security - TLS<\/strong><\/span><\/p><p>You can now enable encryption in transit with TLS certificates for your Zookeeper nodes, giving you another level of security.&nbsp;<\/p><p>Clusters launched with Apache Kafka &gt;=&nbsp;2.5.1 will have the option to enable&nbsp;TLS security and have the Apache Kafka cluster use these TLS endpoints by default.&nbsp;<\/p><p><span style=\"font-size: 16px;\"><strong><br><\/strong><\/span>More information on the documentation here:&nbsp;<a href=\"https:\/\/docs.aws.amazon.com\/msk\/latest\/developerguide\/zookeeper-security.html#zookeeper-security-tls\">https:\/\/docs.aws.amazon.com\/ms...<\/a>&nbsp;<br><\/p>"}],"icon":"icon-file","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341c27b0de1","title":"MSK Security - Summary","contents":[{"id":"5f341c29a0fd3","type":"video","title":"msk-security-summary1597250599.mp4","host":"vimeo","videoid":"447200207","downloadable":false,"libraryId":210835}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341bfa35507","title":"TLS Authentication - Cleanup","contents":[{"id":"5f341bfc0e5aa","type":"video","title":"msk-security-tls-cleanup1597250554.mp4","host":"vimeo","videoid":"447199943","downloadable":false,"libraryId":210828}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"}],"completedLessonCount":0},{"id":"sec_5f354a4ae4668","title":"MSK Monitoring","lessons":[{"id":"5f341ba6304bc","title":"MSK Monitoring Overview","contents":[{"id":"5f341ba791bb9","type":"video","title":"msk-monitoring-overview1597250470.mp4","host":"vimeo","videoid":"447199459","downloadable":false,"libraryId":210817}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341bf438812","title":"MSK Broker Log Delivery","contents":[{"id":"5f341bf5dbc6c","type":"video","title":"msk-monitoring-broker-log-delivery1597250548.mp4","host":"vimeo","videoid":"447199911","downloadable":false,"libraryId":210827}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341be7c8706","title":"CloudWatch Metrics for MSK","contents":[{"id":"5f341be98aee5","type":"video","title":"msk-monitoring-cloudwatch-metrics1597250535.mp4","host":"vimeo","videoid":"447199837","downloadable":false,"libraryId":210824}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341bd123eae","title":"MSK Open Monitoring - Overview","contents":[{"id":"5f341bd2c9d6f","type":"video","title":"msk-monitoring-open-monitoring-prometheus1597250513.mp4","host":"vimeo","videoid":"447199697","downloadable":false,"libraryId":210822}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341bae40de2","title":"Prometheus Setup on EC2","contents":[{"id":"5f341bb010094","type":"video","title":"msk-monitoring-prometheus-setup-on-ec21597250478.mp4","host":"vimeo","videoid":"447199495","downloadable":false,"libraryId":210818}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341bb701043","title":"Prometheus Setup on ECS - Ground Work","contents":[{"id":"5f341bb85c7cd","type":"video","title":"msk-monitoring-prometheus-setup-ecs-ground-work1597250487.mp4","host":"vimeo","videoid":"447199556","downloadable":false,"libraryId":210819}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341bcb4ff6e","title":"Prometheus Docker Image Setup on ECR","contents":[{"id":"5f341bcccc60e","type":"video","title":"msk-monitoring-prometheus-docker-image-setup1597250507.mp4","host":"vimeo","videoid":"447199658","downloadable":false,"libraryId":210821}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341bc367bc2","title":"Prometheus Setup on ECS - ECS Service Setup","contents":[{"id":"5f341bc4f29f0","type":"video","title":"msk-monitoring-prometheus-ecs-service-setup1597250499.mp4","host":"vimeo","videoid":"447199615","downloadable":false,"libraryId":210820}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341bd97ac3a","title":"Grafana Setup on ECS","contents":[{"id":"5f341bdb25691","type":"video","title":"msk-monitoring-grafana1597250521.mp4","host":"vimeo","videoid":"447199754","downloadable":false,"libraryId":210823}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341bedb6dae","title":"MSK Monitoring - Cleanup","contents":[{"id":"5f341bef7533a","type":"video","title":"msk-monitoring-cleanup1597250541.mp4","host":"vimeo","videoid":"447199871","downloadable":false,"libraryId":210825}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"}],"completedLessonCount":0},{"id":"sec_5f354a531c113","title":"Stream Processing on MSK","lessons":[{"id":"5f341b9e069b6","title":"Stream Processing with Kafka Streams","contents":[{"id":"5f341b9f9ec35","type":"video","title":"stream-processing-kafka-streams1597250462.mp4","host":"vimeo","videoid":"447199420","downloadable":false,"libraryId":210816}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341b7f2bd72","title":"Kafka Streams on ECS","contents":[{"id":"5f341b8094b45","type":"video","title":"stream-processing-kafka-streams-on-ecs1597250431.mp4","host":"vimeo","videoid":"447199238","downloadable":false,"libraryId":210812}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341b97d2f52","title":"Kafka Streams in Production","contents":[{"id":"5f341b9973f60","type":"video","title":"stream-processing-kafka-streams-in-production1597250455.mp4","host":"vimeo","videoid":"447199381","downloadable":false,"libraryId":210815}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341b86d05ca","title":"Using Kinesis Data Analytics to run Flink Jobs against MSK","contents":[{"id":"5f341b884cf12","type":"video","title":"stream-processing-kda-overview1597250438.mp4","host":"vimeo","videoid":"447199276","downloadable":false,"libraryId":210813}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"},{"id":"5f341b923b7c1","title":"KDA - Hands On","contents":[{"id":"5f341b937e8db","type":"video","title":"stream-processing-kda-lab-hands-on1597250450.mp4","host":"vimeo","videoid":"447199346","downloadable":false,"libraryId":210814}],"icon":"icon-video-camera","lesson_link":"javascript:;","curriculum_button":"Start","curriculum_button_disabled":"disabled=disabled"}],"completedLessonCount":0}]},"bundle_courses":[],"pageid":149068,"total":1,"plans":[{"id":13425,"name":"Amazon MSK Course","description":"","course_id":15102,"plan_type_id":3,"price":"174.00","currency_id":22,"tax_category":1,"billing_interval":null,"interval_count":1,"installments":0,"maximum_limit":-1,"validity":0,"enroll_start_date":null,"enroll_end_date":null,"timezone":null,"trial_days":null,"setup_fee":null,"setup_fee_text":null,"stripe_plan":0,"featured":1,"bullet_points":0,"tiers":0,"availability":0,"buy_button_text":"Buy Now","display_order":1,"status":1,"created_by":5901,"modified_by":5901,"created_at":"2020-08-27 11:04:51","updated_at":"2021-02-09 18:29:26","features":null,"currency":{"id":22,"code":"USD","name":"US Doller","symbol":"$"}}]}; 
+  themebgcolor = course.curriculum.themebgcolor;
+</script>  </div> </div> </div> <div class="content-style block content background-cover center-center padding-top-50 padding-bottom-50 parrot zenler-course-author-outr" data-yummy="false" data-uniqid="1577350710340"> <div class="container"> <div class="row" id="zen_cs_author_dynamic" data-uniqid="1577350710222"> <div class="col-md-12"> <div class="text-center"> <div data-content="true" data-dynamic="true">  <div class="col-md-12 instructorBlock">
+   			    		     		<img class="img-pro" src="https://s3.us-east-1.amazonaws.com/contents.newzenler.com/5900/users/5900.5f341a9a0b1e8/l-9.jpg"/>
+	    			    	<div class="clearfix"></div>
+		    	<h4 class="dynamic-heading">Stephane Maarek</h4>
+		    	<div class="udetails  dynamic-text" style="text-align: justify"><p>Stephane is an Apache Kafka expert and an AWS Data Hero. He has taught to over 500,000 students online, and he is thrilled to be your instructor for this course!</p></div>
+	    	</div>
+    		
+
+<style type="text/css">
+	.instructorBlock{		
+		overflow: hidden;
+		/*height: 290px; content was partially hidden, so made auto */ 
+                height:auto;
+                margin-top:20px;
+	}
+
+</style>
+
+
+
+  </div> </div> </div> </div> </div> </div> <script type="text/javascript"> (function(){ var titleDiv = document.getElementsByClassName('plan-title-div'); var priceDiv = document.getElementsByClassName('plan-price-div'); var pointsDiv = document.getElementsByClassName('plan-points-div'); var maxTH = 0; var maxPH = 0; var maxBH = 0; for(var i = 0; i < titleDiv.length; i++){ var th = titleDiv[i].offsetHeight; if(th > maxTH) maxTH = th; var ph = priceDiv[i].offsetHeight; if(ph > maxPH) maxPH = ph; if(pointsDiv.length > 0){ var bh = pointsDiv[i].offsetHeight; if(bh > maxBH) maxBH = bh; } } for(var i = 0; i < titleDiv.length; i++){ titleDiv[i].style.height = maxTH + 'px'; priceDiv[i].style.height = maxPH + 'px'; if(pointsDiv.length > 0){ pointsDiv[i].style.height = maxBH + 'px'; } } })(); </script> <div class="block content-style bg-layer pricing bg-solitude-blue padding-top-bottom-60 content zenler-plan-type-4-outr" data-yummy="false" data-uniqid="1577350713261"> <div class="container"> <div class="text-center padding-bottom-50" data-content="true"> <h2 class="dynamic-heading" data-uniqid="1577350713188">Course Pricing</h2> </div> <div class="row zen_cs_plans_dynamic" id="zen_cs_plans_dynamic_4" data-dynamic="true" data-uniqid="1577350713064"> <div class="zen-pricing-style2">   <ul class="plan-details">
+    <li class="title dynamic-button">
+                <span class="special dynamic-text-color">Most popular</span>
+                    <h5>Amazon MSK Course</h5>
+    </li>
+    <li class="price dynamic-text-color">
+                             
+                                                                                                                        <h1> <span class="currency">$</span>174 <span class=curr-code>USD</span></h1>
+                                                                                                                                                            <a class="pricebutton dynamic-button" href="https:/courses/amazon-msk-master-class/buy/plan/13425" rel="nofollow"><span class="icon-tag"></span> Buy Now</a>
+                </li>
+                
+</ul>  
+
+  </div> </div> </div>  <script type="text/javascript">
+    var publishable_key = "pk_live_SI67QerxwmNx9mPSk2FWfapt";
+    //var APP_URL = "https:\/\/learn-msk.com.prd.esyexpress.net"
+    var APP_URL = '';
+    var $default_school_strings = {"home":"Home","all":"All","courses":"Courses","course":"Course","contact_us":"Support","sign_up":"Sign Up","login":"Login","logout":"Logout","register":"Register","admin":"Admin","my":"My","account":"Account","get_in_touch":"Get in touch","terms_of_use":"Terms Of Use","privacy_policy":"Privacy Policy","powered_by":"Powered By","your":"Your","name":"Name","email":"Email","address":"Address","add_comment":"Add Comment","submit":"Submit","password":"Password","forgot":"Forgot","dont_have_an_account":"Don't have a account","first_name":"First Name","last_name":"Last Name","confirm":"Confirm","by_clicking_register":"By clicking Register, you agree to the","terms_conditions":"Terms and Conditions","already_account":"Already have an account","category":"Category","search":"Search","profile":"Profile","picture":"Picture","update":"Update","billing":"Billing","card":"Card","credit_card":"Credit Card","number":"Number","cvc_code":"CVC Code","expiry_date":"Expiry Date","country":"Country","cancel":"Cancel","save":"Save","purchase":"Purchase","history":"History","subscriptions":"Subscriptions","order":"Order","date":"Date","payment":"Payment","type":"Type","price":"Price","total":"Total","discount":"Discount","generate":"Generate","link":"Link","overview":"Overview","visitors":"Visitors","sales":"Sales","pending":"Pending","general":"General","details":"Details","url":"URL","report":"Report","select":"Select","settings":"Settings","range":"Range","today":"Today","yesterday":"Yesterday","last_7_days":"Last 7 days","last_30_days":"Last 30 Days","this_month":"This Month","last_month":"Last Month","this_year":"This Year","last_year":"Last Year","all_time":"All Time","custom_range":"Custom Range","paypal":"Paypal","connect_your_paypal":"Connect your Paypal account to receive your affiliate commission.","complete":"Complete","registration":"Registration","register_popup_heading":"Please fill in the below fields to complete your registration","enroll_in_course":"Enroll In Course","not_open_for_enrollment_message":"This course is not open for enrollment","order_summary":"Order Summary","redeem":"Redeem","coupon":"Coupon","contact_info":"Contact Information","security_code":"Security Code","payment_info":"Payment Information","buy":"Buy","guaranteed_safe_checkout":"Guaranteed Safe Checkout","affiliate":"Affiliate","commission":"Commission","payouts":"Payouts","date_of_payout":"Date of Payout","not_enrolled_msg":"You have not enrolled to any courses.","featured":"Featured","no_course_msg":"No course to list.","reset":"Reset","send_password_reset_link":"Send Password Reset Link","image_size":"Recommended Image Size","generate_affiliate_link_label":"Enter any site URL to generate a direct affiliate link (E.g. To a course sales page","upload":"Upload","change":"Change","current":"Current","new":"New","run":"Run","export_csv":"Export(CSV)","date_of_sale":"Date of Sale","sold":"Sold","is_commission_paid":"Is Commission Paid","paid":"Paid","no_payout_msg":"No payout in given date range.","no_sales_msg":"No sales found for the duration selected.","connect_paypal_msg":"Connect your Paypal account to receive your affiliate commission.","started_at":"Started At","renews_on":"Renews On","actions":"Actions","no_sub_msg":"No active subscriptions found","no_purchase_msg":"No purchase details found","no_card_msg":"You don't have a stored credit card.","expires_in":"Expires in","reviews":"Reviews","save_changes":"Save changes","close":"Close","enter_title":"Please enter your review title here","enter_review":"Please enter your review here","choose_rating":"Choose your rating","rate_this_course":"Rate this course","awaiting_approval":"Your review is awaiting approval!","add_review":"Add your review now","edit_review":"Edit your review now","download_free_report":"Download The Free Report Now","download_cheatsheet":"Download Cheatsheet","go_to_course":"Go to Course","yes_let_me_in":"YES, LET ME IN","use_my_card":"Use my card ending in","use_another_card":"Use another card","enter_coupon":"Enter Coupon Code Here","apply":"Apply","create_new_account":"Create new account","continue":"Continue","start_first_trial":"Start your free trial","enroll_free":"Enroll for Free","not_set_pricing_plan":"You haven't set any pricing plans","recommended_paln":"Recommended Plan","pricing_options":"Pricing Options","course_not_available":"This course is currently not available in this school!","already_member":"Already a member","enroll_success":"You have enrolled successfully to the course","card_end":"Your card ends in","thank_you":"Thank You","congrats_msg":"Congratulations and Thank You for enrolling in this course.","having_trouble":"Having trouble?","continue_to_course":"Continue to Course","contact":"Contact us","add":"Add","information":"Information","review_enter_title":"Please enter the review title","review_enter_comment":"Please enter your comment","profile_image_invalid":"Please select a valid image file","profile_updated_success":"Profile updated successfully!","payment_settings_updated_success":"Settings successfully updated","current_password_invalid":"The current password you entered is invalid","password_change_success":"Password changed successfully!","enter_password_msg":"Please enter password","confirm_password_msg":"Please confirm password","user_already_registered":"You already have an account. Please enter password to continue.","coupon_invalid":"Coupon invalid","coupon_expired":"Coupon expired","coupon_limit_exeeded":"Maximum redemption limit reached for this coupon","player_preloader_msg":"Your course is loading. Hang tight.","back_to_curriculum":"Back to curriculum","curriculum":"Curriculum","discussion":"Discussion","support":"Support","lesson_preview":"Preview","ask_a_question":"Ask a Question","message":"Message","lesson_locked_msg":"Lesson contents locked","enroll_to_unlock_lesson_msg":"Enroll to unlock this lesson.","enroll_to_unlock":"Enroll to unlock","no_lesson_msg":"No lessons available !","back_to_dashboard":"Back to Dashboard","send":"Send","well_done":"Well done!","up_next":"Up Next","you_completed":"You have completed","congratulations":"Congratulations","complete_success_msg":"You have successfully completed","download_certificate":"Download your certificate","free":"Free","only_one":"You have only 1 more to go in","few_more":"You have a few more lessons to go in","only":"Only","left_in":"left in","card_updated_success_msg":"Card updated successfully","processing":"Processing","lessons_completed":"Lessons Completed","start":"Start","revisit":"Revisit","resume":"Resume","preview":"Preview","mark_the_lesson":"Mark Lesson","as_not_completed":"as not completed","as_completed":"as completed","ending_in":"ending in","privacy":"Privacy","privacy_updated_success":"Privacy Updated Successfully","pls_complete_the_lesson":"Please complete the lesson","to_continue":"to continue","take_me_to_this_lesson":"Take me to this Lesson","by_submitting_the_form":"By submitting this form you agree to our","and":"and","next_lesson":"Next Lesson","support_success_msg":"Thank you! Your message has been successfully sent. We will contact you very soon!","you_have":"You have","lessons":"Lesson(s)","left":"left","buy_now":"Buy Now","url_copied":"Url Copied","cancel_subscription_warning":"Are you sure you want to cancel the subscription?","cancel_subscription_warning_text":"If you have chosen to cancel the subscription, you will lose access to the course contents.","ok":"OK","good_rating":"Good Rating","top_rated":"Top Rated","no_lesson_contents":"No contents are available in this lesson!","curriculum_lesson":"Lesson","curriculum_lessons":"Lessons","lesson_available_after_drip_schedule":"Lesson available after","lesson_not_available_in_plan":"Sorry! This lesson is not available on this plan.","months":"month(s)","weeks":"week(s)","days":"day(s)","hours":"hour(s)","minutes":"minute(s)","seconds":"second(s)","sign_in":"Sign In","community":"COMMUNITY","my_courses":"MY COURSES","left_header_affiliate":"AFFILIATE","my_account":"My Account","my_settings":"My Settings","all_courses":"All Courses","your_credit_card":"Your Credit Card","your_name":"Your Name","your_email":"Your Email","forget_password":"Forgot Password","search_course":"Search Course","search_courses":"Search Courses","profile_picture":"Profile Picture","add_card":"Add Card","change_card":"Change Card","card_number":"Card Number","purchase_history":"Purchase History","select_date_range":"Select Date Range","select_course":"Select Course","payment_settings":"Payment Settings","payment_type":"Payment Type","sold_price":"Sold Price","course_price":"Course Price","total_price":"Total Price","total_commission":"Total Commission","total_commissions":"Total Commissions","total_sales":"Total Sales","generate_link":"Generate Link","generate_report":"Generate Report","pending_commission":"Pending Commission","pending_commissions":"Pending Commissions","paid_commission":"Paid Commission","paid_commissions":"Paid Commissions","general_details":"General Details","affiliate_url":"Affiliate URL","affiliate_commission":"Affiliate Commission","run_report":"Run Report","paypal_account":"Paypal Account","complete_registration":"Complete Registration","redeem_coupon":"Redeem Coupon","featured_courses":"Featured Courses","reset_password":"Reset Password","current_password":"Current Password","new_password":"New Password","email_address":"Email Address","course_name":"Course Name","credit_card_number":"Credit Card Number","confirm_password":"Confirm Password","student":"Student","contact_us_to_buy":"Please contact us to enroll in the course","plan_invalid":"Cannot find plan details!","course_expired":"This course is expired. Please enroll again to get access.","enroll_now":"Enroll now","by_clicking_register_agree_terms":"By clicking Sign up, you agree to our Terms and Conditions","phone":"Phone","city":"City","state":"State","zip_code":"Zip Code","unsubscribe":"Unsubscribe","or":"OR","upgrade_your_plan":"Upgrade your plan to access this lesson","course_upgrade_heading":"Course Upgrade","most_popular":"Most popular","search_for_a_lesson":"Search for a lesson","start_paid_trial":"Start your trial","paid_trial_text":"Trial Fee","due_today":"Due today","notifications":"Notifications","cannot_view_assignment":"You need to enroll this course to view the assignment.","assignment_submit_confirmation":"Are you sure, you want to submit this assignment?","assignment_upload_dropzone_text":"Upload your assignment here","assignment_download_reference_file":"Download Reference File","assignment_empty_text_content_error_message":"Please enter the assignment text.","assignment_file_not_uploaded_error_message":"Please upload the assignment file.","assignment_submitted_success_message":"Submitted the assignment successfully.","assignment_status":"Status","assignment_approved":"Approved","assignment_rejected":"Rejected","assignment_pending_review":"Submitted","assignment_reassigned":"Reassigned","assignment_instructor_evaluated_text":"has reviewed your assignment.","assignment_new_revision":"New Revision","assignment_now":"Now","assignment_latest_revision":"Latest Revision","assignment_revision":"Revision","assignment_submitted_file":"Submitted File","assignment_comments":"Comments","assignment_comments_description":"Add a new comment and start a private conversation with your instructor here.","assignment_submit_assignment":"Submit Assignment","assignment_feedback":"Feedback","assignment":"Assignment","assignment_submitted_content":"Submitted Content","assignment_requested_to_resubmit":"Requested to Resubmit","assignment_resubmit_button":"Resubmit Assignment","assignment_let_u_know":"We will let your instructor know.","search_blog_post":"Search Our Blog","no_blog_msg":"No blogs to list.","blog_select_category":"Select Category","blog_author":"Author","blog_posted_on":"Posted On","blog_categories":"Categories:","bundle_access_now":"Access Now","remove_card":"Remove Card","remove_card_warning":"Are you sure you want to remove the card","remove_card_warning_text":"If you are on an active subscription your recurring payments will fail and subscription will get cancelled.","continue_with_social_media":"Continue with Social Media","continue_with_google":"Continue With Google","continue_with_facebook":"Continue With Facebook","continue_with_twitter":"Continue With Twitter","continue_with":"Continue with","vat":"VAT","vat@":"VAT @","coupon_applied":"Coupon Applied","inc_vat":"inc vat","file_size_limit":"Video cannot be displayed. Please contact admin.","product":"Product","live_class_not_open_for_registration":"This live class is not open for registration","live_webinar_not_open_for_registration":"This live webinar is not open for registration","book_my_spot":"BOOK MY SPOT","on":"On","all_spots_for_this_live_class_has_been_booked_now":"All Spots for this Live Class has been booked now","you_have_successfully_booked_your_spot":"You have successfully booked your spot","waiting_for_the_presenter_to_join_the_live_class":"Waiting for the Presenter to join the Live Class","live_class":"Live Class","has_ended":"has ended","join_in_zoom":"Join in Zoom","use_this_passcode_to_join":"Use this Passcode to Join","join_from_your_browser":"Join from your Browser","you_would_need_to_allow_popups_to_be_able_to_join_on_browser":"You would need to allow popups to be able to join on browser","going":"Going","not_going":"Not Going","you_have_booked_a_spot":"You have booked a spot","happening_now":"Happening now","join":"Join","in":"in","inc":"inc"}
+    var fbtrackid     = ""
+</script>
+
+<script type="text/javascript" src="https://d235vmrai5heq2.cloudfront.net/js/admin/lib/bootstrap-sweetalert/sweetalert.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://d235vmrai5heq2.cloudfront.net/elements/bundles/Zenler/js/Zenler_skeleton.bundle.js" crossorigin="anonymous"></script>
+<script src="https://d235vmrai5heq2.cloudfront.net/js/default/site.js?v=V3.1.80024" crossorigin="anonymous"></script>
+<!--<script src="https://d235vmrai5heq2.cloudfront.net/js/app.js"></script>-->
+<script src="https://d235vmrai5heq2.cloudfront.net/js/stripe.js?v=V3.1.80024" crossorigin="anonymous"></script>
+<script src="https://d235vmrai5heq2.cloudfront.net/js/default/checkout.js?v=V3.1.80024" crossorigin="anonymous"></script>
+<script src="https://d235vmrai5heq2.cloudfront.net/js/default/review.js?v=V3.1.80024" crossorigin="anonymous"></script>
+<script src="https://d235vmrai5heq2.cloudfront.net/js/tether.min.js" crossorigin="anonymous"></script>
+<!-- commented to avoid loading twice -->
+<!-- <script src="https://d235vmrai5heq2.cloudfront.net/js/bootstrap.js"></script> -->
+<script src="https://d235vmrai5heq2.cloudfront.net/js/zen-tracking.js?v=V3.1.80024" crossorigin="anonymous"></script>
+<script src="https://d235vmrai5heq2.cloudfront.net/js/curriculum.js?v=V3.1.80024" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://d235vmrai5heq2.cloudfront.net/js/jquery.blockUI.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://d235vmrai5heq2.cloudfront.net/elements/js/counteverest/jquery.counteverest.min.js" crossorigin="anonymous"></script>
+<script src="https://d235vmrai5heq2.cloudfront.net/js/admin/lib/velocity/velocity.min.js" crossorigin="anonymous"></script>
+<script src="https://d235vmrai5heq2.cloudfront.net/js/admin/lib/velocity/velocity.ui.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://d235vmrai5heq2.cloudfront.net/js/admin/lib/bootstrap-notify/bootstrap-notify.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://d235vmrai5heq2.cloudfront.net/js/manage-elements.js" crossorigin="anonymous"></script>
+<script src="https://d235vmrai5heq2.cloudfront.net/js/default/paypal.js?v=V3.1.80024" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+
+  course_currency = "USD";
+  states = [];
+  detected_state_id = "";
+      siteTracking.internalApi    = {"queue_insert_url":"https:\/\/queue.prd.esyexpress.net\/api\/v1\/queue\/insert","get_broadcast_users_url":"https:\/\/queue.prd.esyexpress.net\/api\/v1\/get-broadcast-users","restart_job_url":"https:\/\/queue.prd.esyexpress.net\/admin\/job\/{job_id}\/restart","remove_job_url":"https:\/\/queue.prd.esyexpress.net\/admin\/job\/{job_id}\/remove","tracking_add_url":"https:\/\/webtracker.newzenler.com\/api\/v1\/tracking\/add","tracking_get_url":"https:\/\/webtracker.newzenler.com\/api\/v1\/tracking\/get","tracking_remove_url":"https:\/\/webtracker.newzenler.com\/api\/v1\/tracking\/remove","tracking_add_domain_url":"https:\/\/webtracker.newzenler.com\/api\/v1\/tracking\/add-domain","tracking_update_domain_url":"https:\/\/webtracker.newzenler.com\/api\/v1\/tracking\/update-domain","tracking_remove_domain_url":"https:\/\/webtracker.newzenler.com\/api\/v1\/tracking\/remove-domain","tracking_get_visit_date_url":"https:\/\/webtracker.newzenler.com\/api\/v1\/tracking\/get-visit-date"};
+    manageElements.pageId       = 149068;
+    manageElements.isEu         = false;
+    manageElements.consent_text = "Yes, I agree to receive emails about your products and special offers.";
+    manageElements.site_key     = "6Lc1jbQZAAAAAPeBZvkLPYZI2G1Fx3__lL1opdiY";
+    manageElements.enable_captcha = 0;
+    manageElements.captcha_type   = "invisible";
+    manageElements.page_uri       = "courses\/amazon-msk-master-class";
+    
+    site.school_id       = 5900;
+
+    account_id = "acct_1HKiWeKawHmbndFW";
+    card_saved = 0;
+    payment_method = "";
+    
+    $(document).ready(function(){
+      manageElements.init();
+    });
+</script>
+<script src="https://d235vmrai5heq2.cloudfront.net/js/default/live-class.js?v=V3.1.80024" crossorigin="anonymous"></script>
+<script src="https://d235vmrai5heq2.cloudfront.net/js/default/live-webinar.js?v=V3.1.80024" type="text/javascript"></script>
+<script src="https://d235vmrai5heq2.cloudfront.net/js/admin/lib/select2/select2.full.min.js?v=V3.1.80024" crossorigin="anonymous"></script>
+<script src="https://d235vmrai5heq2.cloudfront.net/js/default/webinar.js?v=V3.1.80024" type="text/javascript"></script>
+ <script src="https://js.stripe.com/v3/"></script>
+<script type="text/javascript">
+    var slug = "course page";
+</script>
+<div class="cookies-banner" id="cookie_box" style="display: none;">
+    <div>
+        This website uses cookies. Using this website means you are ok with this but you can learn more about our cookie policy <br /> and how to manage your cookie choices <a href="/cookiepolicy" target="_blank">here</a>    </div>
+    <div class="cancel-button cookie_box_close">
+        X
+<!--        <i class="font-icon fa fa-times"></i>-->
+    </div>
+</div>
+
+    
+
+{% include "footer.html" %}
